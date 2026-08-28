@@ -55,32 +55,35 @@ Used for shared application resources:
 
 ### Digital Content
 
-Method| Endpoint| Description
-GET| "/api/content"| Get all content
-GET| "/api/content/{id}"| Get content by ID
-POST| "/api/content"| Create content
-PUT| "/api/content/{id}"| Update content
-DELETE| "/api/content/{id}"| Delete content
-GET| "/api/content/search?keyword="| Search content
-GET| "/api/content/available"| Get available content
+| Method | Endpoint | Description |
+| ------ | -------- | ----------- |
+| GET | "/api/content" | Get all content |
+| GET | "/api/content/{id}" | Get content by ID |
+| POST | "/api/content" | Create content |
+| PUT | "/api/content/{id}" | Update content |
+| DELETE | "/api/content/{id}" | Delete content |
+| GET | "/api/content/search?keyword=" | Search content |
+| GET | "/api/content/available" | Get available content |
 
 ### Users
 
-Method| Endpoint| Description
-GET| "/api/users"| Get all users
-GET| "/api/users/{id}"| Get user by ID
-POST| "/api/users"| Create user
-PUT| "/api/users/{id}"| Update user
-DELETE| "/api/users/{id}"| Delete user
+| Method | Endpoint | Description |
+| ------ | -------- | ----------- |
+|GET| "/api/users"| Get all users |
+|GET| "/api/users/{id}"| Get user by ID |
+|POST| "/api/users"| Create user |
+|PUT| "/api/users/{id}"| Update user |
+|DELETE| "/api/users/{id}"| Delete user |
 
 ### Purchases
 
-Method| Endpoint| Description
-GET| "/api/purchases"| Get all purchases
-GET| "/api/purchases/{id}"| Get purchase by ID
-GET| "/api/purchases/user/{userId}"| Get user's purchases
-POST| "/api/purchases"| Create purchase
-DELETE| "/api/purchases/{id}"| Delete purchase
+| Method | Endpoint | Description |
+| ------ | -------- | ----------- |
+|GET| "/api/purchases"| Get all purchases|
+|GET| "/api/purchases/{id}"| Get purchase by ID|
+|GET| "/api/purchases/user/{userId}"| Get user's purchases|
+|POST| "/api/purchases"| Create purchase|
+|DELETE| "/api/purchases/{id}"| Delete purchase|
 
 ## Database
 
